@@ -4,7 +4,7 @@ Prerequisites:
 
 
 Install steps
-1. Create the environment. The easiset way to create the environment is to run the following command from an anaconda prompt on windows or from any terminal on linux:
+1. Create the environment. First clone this repository and cd into the repo. The easiset way to create the environment is to run the following command from an anaconda prompt on windows or from any terminal on linux:
 **conda env create -f eigenface.yml**   
 2. Activate the environment by running the following command from an anaconda prompt:
 **conda activate eigenface**  
