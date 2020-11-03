@@ -1,11 +1,13 @@
 # eigenface
-The dependencies for the package are 
-- numpy
-- matplotlib
-- scikit-image
+Prerequisites:
+- Anaconda
 
-You can create an anaconda environment with the required packages using the following command:
 
-conda create -n eigenface python numpy matplotlib scikit-image 
-
-Now open up the Jupyter notebook, enjoy!
+Install steps
+1. Create the environment. First clone this repository and cd into the repo. The easiset way to create the environment is to run the following command from an anaconda prompt on windows or from any terminal on linux:
+**conda env create -f eigenface.yml**   
+2. Activate the environment by running the following command from an anaconda prompt:
+**conda activate eigenface**  
+2. Next launch Jupyter Notebooks (If on windows you may need to install this through Anaconda navigator. Open Anaconda navigator and click install in the Jupyter Notebook tile). You can do this through the anaconda navigator on Windows (in linux run **jupyter-notebook**)
+3. Navigate to Eigenface.ipynb
+4. Click Cell-> Run All
